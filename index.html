@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amazon-like webpage">
+    <title>Amazon-like Webpage</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #131a22;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Main Content Area */
+        .hero {
+            background-color: #ff9900;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            color: white;
+            font-size: 2rem;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #888;
+            font-size: 1rem;
+        }
+
+        .product button {
+            background-color: #ff9900;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            color: white;
+            cursor: pointer;
+            font-size: 1.1rem;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #ff6600;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #232f3e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Amazon-like Webpage</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Deals</a>
+        <a href="#">Orders</a>
+        <a href="#">Cart</a>
+    </nav>
+
+    <!-- Hero Section (Banner) -->
+    <section class="hero">
+        <h2>Welcome to the Amazon-like Webpage</h2>
+        <p>Browse and shop from a wide variety of products.</p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://www.bigbasket.com/media/uploads/p/l/40304716-2_1-dazller-eyeliner-pencil.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$29.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.fGDGjRz8gKJ1SqXtKh_LvwAAAA&pid=Api&P=0&h=180" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$49.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://richesm.com/wp-content/uploads/2022/10/Denver-Caliber-Perfume-And-Deodorant-Pack-300-gm-1.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$19.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="https://4.bp.blogspot.com/-3u17kiWEwHA/VI2WH57XRGI/AAAAAAAAPZc/XJ4ZcK9nX8I/s1600/blushpink1.jpg" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>$79.99</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Amazon-like Webpage. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
